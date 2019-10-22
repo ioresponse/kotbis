@@ -15,7 +15,7 @@ services:
     tty: true
 
   web1:
-    image: kotbis/kotbis-ap:1.3
+    image: kotbis/kotbis-ap:1.4
     volumes:
       - kotbis-content:/var/www/localhost/htdocs
     ports:
@@ -23,7 +23,7 @@ services:
     stdin_open: true
     tty: true
   web2:
-    image: kotbis/kotbis-ap:1.3
+    image: kotbis/kotbis-ap:1.4
     volumes:
       - kotbis-content:/var/www/localhost/htdocs
     ports:
@@ -31,7 +31,7 @@ services:
     stdin_open: true
     tty: true
   web3:
-    image: kotbis/kotbis-ap:1.3
+    image: kotbis/kotbis-ap:1.4
     volumes:
       - kotbis-content:/var/www/localhost/htdocs
     ports:
@@ -39,7 +39,7 @@ services:
     stdin_open: true
     tty: true
   web4:
-    image: kotbis/kotbis-ap:1.3
+    image: kotbis/kotbis-ap:1.4
     volumes:
       - kotbis-content:/var/www/localhost/htdocs
     ports:
@@ -47,7 +47,7 @@ services:
     stdin_open: true
     tty: true
   web5:
-    image: kotbis/kotbis-ap:1.3
+    image: kotbis/kotbis-ap:1.4
     volumes:
       - kotbis-content:/var/www/localhost/htdocs
     ports:
